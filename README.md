@@ -184,10 +184,12 @@ I focus on building secure and scalable applications by combining **software dev
 # 🏆 GitHub Achievements
 
 <p align="center">
-  <img 
-    src="https://github-profile-trophy.vercel.app/?username=i-am-sanjaykumar07&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&margin-h=15"
-    alt="GitHub Trophy"
-  />
+
+<img 
+src="https://github-profile-trophy.vercel.app/?username=i-am-sanjaykumar07&theme=algolia&no-frame=true&row=1&column=6"
+alt="GitHub Trophies"
+/>
+
 </p>
 
 ## 🛡️ Secure Code. Continuous Learning. Real-World Problem Solving 🚀
