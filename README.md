@@ -1,5 +1,5 @@
 # Sanjay Kumar Palisetty 🛡️
-**Information Security Specialist | Full-Stack Software Developer | CSE Undergraduate**
+**Cybersecurity Enthusiast | Full-Stack Developer | CSE (Information Security) Undergraduate**
 
 <p align="left">
   <a href="https://linkedin.com/in/iam-sanjaykumar" target="_blank">
