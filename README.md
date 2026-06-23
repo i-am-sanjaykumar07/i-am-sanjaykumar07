@@ -1,117 +1,174 @@
-# Sanjay Kumar Palisetty 🛡️
-**Cybersecurity Enthusiast | Full-Stack Developer | CSE (Information Security) Undergraduate**
+# Hi 👋, I'm Sanjay Kumar Palisetty 🛡️
+
+### Cybersecurity Enthusiast | Full-Stack Developer | CSE (Information Security) Undergraduate
 
 <p align="left">
-  <a href="https://linkedin.com/in/iam-sanjaykumar" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/iam-sanjaykumar">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
   <a href="mailto:palisettysanjaykumar@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>&nbsp;&nbsp;
-  <a href="https://portfolio-palisettysanjaykumar.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Website">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
+  </a>
+  <a href="https://portfolio-palisettysanjaykumar.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-black?style=for-the-badge&logo=vercel">
   </a>
 </p>
 
 ---
 
-## 👨‍💻 Who is Sanjay Kumar Palisetty? aka @i-am-sanjaykumar07
-🎯 Cybersecurity Student | Full-Stack Developer | Problem Solver | IoT Explorer
+## 👨‍💻 About Me
 
-🔐 I am a Computer Science Engineering student specializing in **Information Security** at **Chandigarh University, Mohali** (graduating May 2027). I focus on building secure full-stack applications, understanding cybersecurity concepts, and creating innovative IoT-based solutions.
+🎓 I am a **Computer Science Engineering undergraduate specializing in Information Security** at **Chandigarh University, Mohali** (2023–2027).
 
-I blend programming logic with cybersecurity awareness to secure cloud, on-prem, and IoT environments. I am passionate about learning penetration testing, vulnerability assessment, and defensive concepts.
+I enjoy building secure and scalable applications by combining **software development, cybersecurity concepts, and problem-solving skills**.
 
-Building secure applications by combining software engineering, cybersecurity, and problem-solving.
+* 🔐 Exploring Cybersecurity, Secure Development & VAPT
+* 💻 Building Full-Stack Applications using MERN Stack
+* 🧠 Practicing Data Structures & Algorithms using C++
+* 🌐 Interested in Web Security, Networking & IoT Solutions
 
 ---
 
-## 🧠 My Expertise
+## 💼 Experience
 
-* 🔍 **Web Security, Vulnerability Assessment & Penetration Testing Fundamentals**
-* 🛡️ **Network Security & Forensics** using tools like Wireshark and Packet Tracer
-* 💻 **Full-Stack Web Development** using the MERN stack (MongoDB, Express, React, Node)
-* 🔌 **IoT & Embedded Hardware** integration using ESP8266 / NodeMCU & Arduino
-* 🧬 **CS Fundamentals** Data Structures & Algorithms, OOP, Operating Systems, DBMS & Networking
+### 🛡️ Cybersecurity Intern
+
+### YHills Edutech Pvt. Ltd.
+
+* Worked on cybersecurity fundamentals, vulnerability assessment, and penetration testing concepts.
+* Performed basic security testing in virtual environments.
+* Explored web application vulnerabilities and security assessment methodologies.
+* Used cybersecurity tools including:
+
+  * Kali Linux
+  * sqlmap
+  * Wireshark
+  * Virtual Machines
+* Prepared vulnerability analysis and security reports.
+
 ---
 
 ## 🚀 Featured Projects
 
-* 🏆 **Smart Home Automation System (IoT)**
-  * Developed a NodeMCU/ESP8266 based automated appliance controller integrating relays and local sensor streams.
-  * Secured **2nd Prize** at University-Level Project Expo.
+## 🏠 Smart Home Automation System (IoT)
 
-* 🛡️ **RainShield (Umbrella Rental System)**
-  * QR-verification rental client built with React and dynamic user checkout flows.
-  * Designed mock hardware API endpoints simulating locker states and checkouts.
-  * **Live Demo:** [rain-shield.vercel.app](https://rain-shield.vercel.app)
+**Role:** Developer
+**Tech:** Arduino | ESP8266 | Sensors | Embedded Systems
 
-* 📊 **Placement Tracker System**
-  * Completed MERN application managing academic recruitments, applicant credentials, and company drive logs.
-  * Built dashboard analytics and custom status pipelines.
-  * **Live Demo:** [placement96.vercel.app](https://placement96.vercel.app)
+* Developed an IoT-based smart home automation system.
+* Implemented wireless appliance control using ESP8266 modules.
+* Integrated sensors for automated real-time operations.
+* Optimized communication between IoT hardware components.
+
+🏆 **Achievement:** Secured 2nd Prize at University-Level Project Expo
 
 ---
 
-## 💻 Tech Stack
+## ☂️ RainShield — Umbrella Rental System
 
-Technologies and tools I use for software development, cybersecurity learning, and IoT prototyping.
+**Role:** Product Designer & Developer
 
-### 🧠 Programming Languages & Scripting
-<p align="left">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash">
-</p>
+**Tech:** React.js | Web Development | IoT Concept
 
-### 🧱 Frameworks, Platforms & Libraries
-<p align="left">
-  <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node">
-  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express">
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" alt="jQuery">
-  <img src="https://img.shields.io/badge/REST_APIs-009688?style=flat-square" alt="REST APIs">
-</p>
+🔗 Live Demo:
+https://rain-shield.vercel.app
 
-### 🗄️ Databases / ORM
-<p align="left">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
-</p>
-
-### 🧰 Tools, Cybersecurity & DevOps
-<p align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark">
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino">
-  <img src="https://img.shields.io/badge/Cisco_Packet_Tracer-0052CC?style=flat-square" alt="Cisco Packet Tracer">
-</p>
+* Designed a QR-based smart umbrella rental platform.
+* Developed responsive frontend interfaces using React.js.
+* Created API-based workflows for rental operations.
+* Designed scalable architecture focusing on accessibility.
 
 ---
 
-## 📜 Professional Certifications
+## 📊 Placement Tracker System
 
-* 🛡️ **Microsoft Certified**: Security Operations Analyst Associate
-* 🤖 **Skill India**: AI for Entrepreneurship (Skill India Digital Hub)
-* 🗄️ **IBM Certified**: Relational Database Management System (SQL)
-* 🔌 **Cisco Academy**: C++ Essentials 1
+**Role:** Full Stack Developer
+
+**Tech:** MongoDB | Express.js | React.js | Node.js
+
+🔗 Live Demo:
+https://placement96.vercel.app
+
+* Built a MERN stack placement management system.
+* Developed student and company drive tracking modules.
+* Created REST APIs and integrated MongoDB database.
+* Designed responsive dashboard components.
 
 ---
 
-## 📊 Activity Insights
+# 🛠️ Technical Skills
+
+## Programming Languages
+
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square\&logo=cplusplus)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square\&logo=javascript)
+![SQL](https://img.shields.io/badge/SQL-blue?style=flat-square\&logo=mysql)
+
+---
+
+## Full Stack Development
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square\&logo=react)
+![Node](https://img.shields.io/badge/Node.js-green?style=flat-square\&logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-black?style=flat-square)
+![MongoDB](https://img.shields.io/badge/MongoDB-green?style=flat-square\&logo=mongodb)
+
+---
+
+## Cybersecurity
+
+* 🔐 Network Security
+* 🛡️ Vulnerability Assessment
+* 🌐 OWASP Top 10
+* 🔍 Penetration Testing Fundamentals
+* 📡 Wireshark
+* 🐧 Linux
+
+---
+
+## Computer Science Fundamentals
+
+* Data Structures & Algorithms
+* Object-Oriented Programming
+* Database Management Systems
+* Operating Systems
+* Computer Networks
+
+---
+
+## 📜 Certifications
+
+🏅 Microsoft Certified: Security Operations Analyst Associate
+
+🏅 IBM Certified: Relational Database Management System (SQL)
+
+🏅 Skill India: AI for Entrepreneurship
+
+🏅 Cisco Academy: C++ Essentials 1
+
+---
+
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=i-am-sanjaykumar07&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0d1117" alt="Sanjay's GitHub Stats" width="48%">&nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=i-am-sanjaykumar07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages Card" width="48%">
+
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=i-am-sanjaykumar07&show_icons=true&theme=tokyonight&hide_border=true">
+
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=i-am-sanjaykumar07&layout=compact&theme=tokyonight&hide_border=true">
+
 </p>
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=i-am-sanjaykumar07&theme=tokyonight&hide_border=true&background=0d1117" alt="Streak Statistics Card" width="98%">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=i-am-sanjaykumar07&theme=tokyonight&hide_border=true">
+
+</p>
+
+---
+
+<p align="center">
+
+### 🛡️ Building Secure Applications | Learning Continuously | Solving Real-World Problems 🚀
+
 </p>
