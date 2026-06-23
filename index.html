@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i-am-sanjaykumar07 (Sanjay Kumar Palisetty) · GitHub Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="profile_avatar.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+    <!-- Theme Toggle Floating Widget -->
+    <div class="theme-customizer-btn" id="themeCustomizerToggle" title="Customize GitHub Theme">
+        <i data-lucide="palette"></i>
+        <span>Theme</span>
+    </div>
+
+    <!-- Theme Customizer Drawer -->
+    <div class="theme-drawer-overlay" id="themeDrawerOverlay"></div>
+    <div class="theme-drawer" id="themeDrawer">
+        <div class="drawer-header">
+            <h3>Customize GitHub Skin</h3>
+            <button class="drawer-close" id="themeDrawerClose"><i data-lucide="x"></i></button>
+        </div>
+        <div class="drawer-body">
+            <p class="drawer-subtitle">Choose a design palette to match your professional vibe.</p>
+            
+            <div class="theme-section">
+                <h4>GitHub Standard Skins</h4>
+                <div class="theme-grid">
+                    <button class="theme-option active" data-theme="dark">
+                        <span class="theme-preview bg-dark"></span>
+                        <span class="theme-name">GitHub Dark</span>
+                    </button>
+                    <button class="theme-option" data-theme="dark-dimmed">
+                        <span class="theme-preview bg-dark-dimmed"></span>
+                        <span class="theme-name">Dark Dimmed</span>
+                    </button>
+                    <button class="theme-option" data-theme="dark-hc">
+                        <span class="theme-preview bg-dark-hc"></span>
+                        <span class="theme-name">High Contrast</span>
+                    </button>
+                    <button class="theme-option" data-theme="light">
+                        <span class="theme-preview bg-light"></span>
+                        <span class="theme-name">GitHub Light</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="theme-section">
+                <h4>Premium Color Schemes</h4>
+                <div class="theme-grid">
+                    <button class="theme-option" data-theme="emerald">
+                        <span class="theme-preview bg-emerald"></span>
+                        <span class="theme-name">Emerald Mint</span>
+                    </button>
+                    <button class="theme-option" data-theme="sapphire">
+                        <span class="theme-preview bg-sapphire"></span>
+                        <span class="theme-name">Sapphire Blue</span>
+                    </button>
+                    <button class="theme-option" data-theme="cyberpunk">
+                        <span class="theme-preview bg-cyberpunk"></span>
+                        <span class="theme-name">Cyberpunk</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="drawer-footer">
+                <p>💡 Mode settings persist automatically in your browser storage.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-left">
+                <a href="#overview" class="header-logo" aria-label="GitHub Home">
+                    <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon-github">
+                        <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.35 3.12.88.01.47.01.84.01.93 0 .22-.15.47-.55.38A8.006 8.006 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                    </svg>
+                </a>
+                <div class="header-search-wrapper">
+                    <div class="header-search-container">
+                        <i data-lucide="search" class="search-icon"></i>
+                        <input type="text" id="global-search" class="header-search-input" placeholder="Type '/' to search profile..." autocomplete="off">
+                        <span class="search-kbd">/</span>
+                    </div>
+                </div>
+                <nav class="header-nav">
+                    <a href="#overview" class="header-nav-item active-tab-link" data-tab-target="overview">Overview</a>
+                    <a href="#repositories" class="header-nav-item" data-tab-target="repositories">Repositories</a>
+                    <a href="#projects" class="header-nav-item" data-tab-target="projects">Projects</a>
+                    <a href="#resume" class="header-nav-item" data-tab-target="resume">Resume</a>
+                </nav>
+            </div>
+            
+            <div class="header-right">
+                <button class="header-icon-btn" aria-label="Notifications" title="Inbox activity">
+                    <i data-lucide="bell"></i>
+                    <span class="notification-indicator"></span>
+                </button>
+                <div class="header-dropdown" id="createDropdown">
+                    <button class="header-icon-btn" aria-label="Create new...">
+                        <i data-lucide="plus"></i>
+                        <i data-lucide="chevron-down" class="chevron"></i>
+                    </button>
+                </div>
+                <div class="header-avatar-btn" id="avatarMenuBtn">
+                    <img src="profile_avatar.png" alt="Sanjay Kumar Palisetty Avatar" class="header-avatar-img">
+                    <i data-lucide="chevron-down" class="chevron"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sub-navigation Tabs (GitHub Style) -->
+    <div class="tabs-nav-wrapper">
+        <div class="tabs-nav-container">
+            <nav class="tabs-nav-bar" role="tablist">
+                <a href="#overview" class="tab-link active" data-tab="overview" role="tab" aria-selected="true">
+                    <i data-lucide="book-open" class="tab-icon"></i>
+                    <span>Overview</span>
+                </a>
+                <a href="#repositories" class="tab-link" data-tab="repositories" role="tab" aria-selected="false">
+                    <i data-lucide="git-fork" class="tab-icon"></i>
+                    <span>Repositories</span>
+                    <span class="tab-badge" id="repo-count-badge">8</span>
+                </a>
+                <a href="#projects" class="tab-link" data-tab="projects" role="tab" aria-selected="false">
+                    <i data-lucide="trello" class="tab-icon"></i>
+                    <span>Projects</span>
+                    <span class="tab-badge">3</span>
+                </a>
+                <a href="#stars" class="tab-link" data-tab="stars" role="tab" aria-selected="false">
+                    <i data-lucide="star" class="tab-icon"></i>
+                    <span>Stars</span>
+                    <span class="tab-badge">2</span>
+                </a>
+                <a href="#resume" class="tab-link" data-tab="resume" role="tab" aria-selected="false">
+                    <i data-lucide="file-text" class="tab-icon"></i>
+                    <span>Resume</span>
+                </a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Layout Container -->
+    <main class="main-layout">
+        <div class="layout-container">
+            <!-- Sidebar Panel (1/4 columns on desktop) -->
+            <aside class="sidebar">
+                <div class="profile-avatar-wrapper">
+                    <img src="profile_avatar.png" alt="Sanjay Kumar Palisetty" class="profile-avatar">
+                    <div class="status-badge" title="Status: Learning & Securing">
+                        <span class="status-emoji">🛡️</span>
+                        <span class="status-text">Securing the Web</span>
+                    </div>
+                </div>
+                
+                <div class="profile-name-container">
+                    <h1 class="profile-fullname">Sanjay Kumar Palisetty</h1>
+                    <h2 class="profile-username">i-am-sanjaykumar07 <span class="profile-pronouns">he/him</span></h2>
+                </div>
+
+                <div class="profile-bio">
+                    Computer Science Engineering student specializing in <strong>Information Security</strong> with strong foundations in software development, cybersecurity, and problem solving.
+                </div>
+
+                <div class="sidebar-actions">
+                    <button class="btn btn-block btn-primary" id="btn-follow">Follow</button>
+                    <a href="#resume" class="btn btn-block" data-tab-target="resume">View Resume</a>
+                </div>
+
+                <div class="profile-stats">
+                    <i data-lucide="users" class="stats-icon"></i>
+                    <span class="stats-count">1</span> <span class="stats-label">follower</span>
+                    <span class="stats-dot">•</span>
+                    <span class="stats-count">3</span> <span class="stats-label">following</span>
+                </div>
+
+                <!-- Custom Meta Attributes Card -->
+                <div class="profile-meta-list">
+                    <div class="meta-item">
+                        <i data-lucide="graduation-cap" class="meta-icon"></i>
+                        <span>Chandigarh University (Mohali)</span>
+                    </div>
+                    <div class="meta-item">
+                        <i data-lucide="map-pin" class="meta-icon"></i>
+                        <span>Piduguralla, AP, India</span>
+                    </div>
+                    <div class="meta-item">
+                        <i data-lucide="clock" class="meta-icon"></i>
+                        <span id="local-time">00:37 (UTC +05:30)</span>
+                    </div>
+                    <div class="meta-item">
+                        <i data-lucide="mail" class="meta-icon"></i>
+                        <a href="mailto:palisettysanjaykumar@gmail.com" class="meta-link">palisettysanjaykumar@gmail.com</a>
+                    </div>
+                    <div class="meta-item">
+                        <i data-lucide="linkedin" class="meta-icon"></i>
+                        <a href="https://linkedin.com/in/iam-sanjaykumar" target="_blank" rel="noopener noreferrer" class="meta-link">iam-sanjaykumar</a>
+                    </div>
+                    <div class="meta-item">
+                        <i data-lucide="link" class="meta-icon"></i>
+                        <a href="https://portfolio-palisettysanjaykumar.vercel.app" target="_blank" rel="noopener noreferrer" class="meta-link">portfolio-palisettysanjaykumar.vercel.app</a>
+                    </div>
+                </div>
+
+                <!-- Skills Section in Sidebar -->
+                <div class="sidebar-section">
+                    <h3 class="section-title">Technical Skills</h3>
+                    <div class="skills-category">
+                        <h5>Languages</h5>
+                        <div class="skills-tags">
+                            <span class="badge-tag" style="--badge-color: #f1e05a;">JavaScript</span>
+                            <span class="badge-tag" style="--badge-color: #f34b7d;">C++</span>
+                            <span class="badge-tag" style="--badge-color: #3572A5;">Python</span>
+                            <span class="badge-tag" style="--badge-color: #b07219;">Java</span>
+                            <span class="badge-tag" style="--badge-color: #e38e00;">SQL</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h5>Web Development</h5>
+                        <div class="skills-tags">
+                            <span class="badge-tag">React.js</span>
+                            <span class="badge-tag">Node.js</span>
+                            <span class="badge-tag">Express.js</span>
+                            <span class="badge-tag">MongoDB</span>
+                            <span class="badge-tag">HTML5</span>
+                            <span class="badge-tag">CSS3</span>
+                            <span class="badge-tag">REST APIs</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h5>Security & Core</h5>
+                        <div class="skills-tags">
+                            <span class="badge-tag">Network Security</span>
+                            <span class="badge-tag">Vulnerability Assessment</span>
+                            <span class="badge-tag">OWASP Top 10</span>
+                            <span class="badge-tag">Wireshark</span>
+                            <span class="badge-tag">DSA</span>
+                            <span class="badge-tag">Operating Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications in Sidebar -->
+                <div class="sidebar-section">
+                    <h3 class="section-title">Certifications</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <i data-lucide="award" class="cert-icon"></i>
+                            <div>
+                                <span class="cert-name">Security Operations Analyst Associate</span>
+                                <span class="cert-issuer">Microsoft</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i data-lucide="award" class="cert-icon"></i>
+                            <div>
+                                <span class="cert-name">AI for Entrepreneurship</span>
+                                <span class="cert-issuer">Skill India Digital Hub</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i data-lucide="award" class="cert-icon"></i>
+                            <div>
+                                <span class="cert-name">Relational Database Management System</span>
+                                <span class="cert-issuer">IBM</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i data-lucide="award" class="cert-icon"></i>
+                            <div>
+                                <span class="cert-name">C++ Essentials 1</span>
+                                <span class="cert-issuer">Cisco</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Main Content Area (3/4 columns on desktop) -->
+            <section class="main-content">
+                
+                <!-- OVERVIEW TAB -->
+                <div class="tab-pane active" id="overview-pane" role="tabpanel">
+                    <!-- Pinned Repositories Section -->
+                    <div class="content-section">
+                        <div class="section-header">
+                            <h3 class="subsection-title">Pinned</h3>
+                            <button class="btn btn-sm">Customize your pins</button>
+                        </div>
+                        <div class="pinned-grid" id="pinned-repos-container">
+                            <!-- Injected dynamically by app.js -->
+                        </div>
+                    </div>
+
+                    <!-- Contribution Grid Section -->
+                    <div class="content-section">
+                        <div class="section-header">
+                            <h3 class="subsection-title" id="contributions-title">204 contributions in the last year</h3>
+                            <div class="contribution-year-selector">
+                                <button class="btn btn-sm active">2026</button>
+                                <button class="btn btn-sm">2025</button>
+                            </div>
+                        </div>
+                        <div class="contribution-graph-card">
+                            <div class="contribution-calendar-wrapper">
+                                <div class="calendar-days">
+                                    <span></span>
+                                    <span>Mon</span>
+                                    <span></span>
+                                    <span>Wed</span>
+                                    <span></span>
+                                    <span>Fri</span>
+                                    <span></span>
+                                </div>
+                                <div class="calendar-grid-container">
+                                    <div class="calendar-months" id="calendar-months-labels">
+                                        <!-- Month labels injected here -->
+                                    </div>
+                                    <div class="calendar-grid" id="calendar-grid-cells">
+                                        <!-- 53 columns * 7 days of cells injected by app.js -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contribution-footer">
+                                <a href="https://docs.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile" target="_blank" class="footer-link">Learn how we count contributions</a>
+                                <div class="legend">
+                                    <span>Less</span>
+                                    <div class="legend-cell level-0" title="No contributions"></div>
+                                    <div class="legend-cell level-1" title="1-2 contributions"></div>
+                                    <div class="legend-cell level-2" title="3-5 contributions"></div>
+                                    <div class="legend-cell level-3" title="6-8 contributions"></div>
+                                    <div class="legend-cell level-4" title="9+ contributions"></div>
+                                    <span>More</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contribution Activity Timeline -->
+                    <div class="content-section">
+                        <h3 class="subsection-title">Contribution activity</h3>
+                        <div class="timeline">
+                            <div class="timeline-month">June 2026</div>
+                            <div class="timeline-event-item">
+                                <div class="timeline-icon">
+                                    <i data-lucide="git-commit"></i>
+                                </div>
+                                <div class="timeline-event-details">
+                                    <div class="timeline-event-header">
+                                        Created 28 commits in 5 repositories
+                                    </div>
+                                    <ul class="timeline-repo-commits">
+                                        <li>
+                                            <a href="#repositories" class="timeline-repo-link" data-tab-target="repositories" data-filter="placement_preparation">i-am-sanjaykumar07/placement_preparation</a>
+                                            <span class="timeline-commit-bar" style="width: 67.8%;"></span>
+                                            <span class="timeline-commit-count">19 commits</span>
+                                        </li>
+                                        <li>
+                                            <a href="#repositories" class="timeline-repo-link" data-tab-target="repositories" data-filter="RainShield">i-am-sanjaykumar07/RainShield</a>
+                                            <span class="timeline-commit-bar" style="width: 21.4%;"></span>
+                                            <span class="timeline-commit-count">6 commits</span>
+                                        </li>
+                                        <li>
+                                            <a href="#repositories" class="timeline-repo-link" data-tab-target="repositories" data-filter="neetcode-submissions">i-am-sanjaykumar07/neetcode-submissions</a>
+                                            <span class="timeline-commit-bar" style="width: 7.1%;"></span>
+                                            <span class="timeline-commit-count">2 commits</span>
+                                        </li>
+                                        <li>
+                                            <a href="#repositories" class="timeline-repo-link" data-tab-target="repositories" data-filter="Portfolio">i-am-sanjaykumar07/Portfolio</a>
+                                            <span class="timeline-commit-bar" style="width: 3.5%;"></span>
+                                            <span class="timeline-commit-count">1 commit</span>
+                                        </li>
+                                        <li>
+                                            <a href="#repositories" class="timeline-repo-link" data-tab-target="repositories" data-filter="FSD_II">i-am-sanjaykumar07/FSD_II</a>
+                                            <span class="timeline-commit-bar" style="width: 3.5%;"></span>
+                                            <span class="timeline-commit-count">1 commit</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-event-item">
+                                <div class="timeline-icon">
+                                    <i data-lucide="plus-circle" class="success-icon"></i>
+                                </div>
+                                <div class="timeline-event-details">
+                                    <div class="timeline-event-header">
+                                        Created a new repository <a href="#repositories" class="timeline-repo-link" data-tab-target="repositories" data-filter="neetcode-submissions">i-am-sanjaykumar07/neetcode-submissions</a>
+                                    </div>
+                                    <span class="timeline-event-date">Jun 16, 2026</span>
+                                </div>
+                            </div>
+
+                            <div class="timeline-event-item">
+                                <div class="timeline-icon">
+                                    <i data-lucide="plus-circle" class="success-icon"></i>
+                                </div>
+                                <div class="timeline-event-details">
+                                    <div class="timeline-event-header">
+                                        Created a new repository <a href="#repositories" class="timeline-repo-link" data-tab-target="repositories" data-filter="placement_preparation">i-am-sanjaykumar07/placement_preparation</a>
+                                    </div>
+                                    <span class="timeline-event-date">Jun 15, 2026</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Profile README.md Box -->
+                    <div class="readme-card">
+                        <div class="readme-header">
+                            <i data-lucide="book-open" class="readme-icon"></i>
+                            <span>i-am-sanjaykumar07 / README.md</span>
+                            <a href="#resume" class="readme-edit-link" data-tab-target="resume"><i data-lucide="edit-3"></i></a>
+                        </div>
+                        <div class="readme-body markdown-body">
+                            <h2>👨‍💻 About Me</h2>
+                            <p>Hi, I am <strong>Sanjay Kumar Palisetty</strong>. I am a Computer Science Engineering undergraduate specializing in <strong>Information Security</strong> at Chandigarh University, Mohali (Graduating May 2027). I focus on security operations, building secure, full-stack web applications, and finding innovative IoT solutions.</p>
+                            
+                            <h3>🎓 Education Summary</h3>
+                            <ul>
+                                <li><strong>Bachelor of Engineering in CSE (Information Security)</strong> | Chandigarh University, Mohali (2023 - 2027) — <strong>CGPA: 7.96</strong></li>
+                                <li><strong>Intermediate (Board of Intermediate Education, AP)</strong> | Narayana Junior College, Vijayawada (2021 - 2023) — <strong>Percentage: 94.5%</strong></li>
+                                <li><strong>Matriculation (Board of Secondary Education, AP)</strong> | Oxford School, Narasaraopeta (2020 - 2021) — <strong>Percentage: 100%</strong></li>
+                            </ul>
+
+                            <h3>🚀 Pinned Projects & Achievements</h3>
+                            <ul>
+                                <li>🏆 <strong>Smart Home Automation System (IoT)</strong>: Secured <strong>2nd Prize</strong> at University-Level Project Expo for developing a modular IoT-based system using Arduino, ESP8266, and custom sensors.</li>
+                                <li>🛡️ <strong>RainShield (Umbrella Rental System)</strong>: Developed a QR-based smart umbrella rental platform combining web technologies (React, Node.js) with physical IoT device logic.</li>
+                                <li>📊 <strong>Placement Tracker System</strong>: Developed a MERN application for managing placement pipelines, scheduling interviews, and tracking company metrics.</li>
+                            </ul>
+
+                            <h3>🛠️ Core Competencies</h3>
+                            <div class="readme-skills-grid">
+                                <div>
+                                    <strong>Programming:</strong> <code>C++</code>, <code>JavaScript</code>, <code>Python</code>, <code>Java</code>, <code>SQL</code>
+                                </div>
+                                <div>
+                                    <strong>Cybersecurity:</strong> Network Security, Vulnerability Assessment, OWASP Top 10, Wireshark, Penetration Testing
+                                </div>
+                                <div>
+                                    <strong>Web Dev:</strong> React.js, Node.js, Express.js, MongoDB, RESTful APIs, HTML5/CSS3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- REPOSITORIES TAB -->
+                <div class="tab-pane" id="repositories-pane" role="tabpanel">
+                    <div class="repo-filter-bar">
+                        <div class="search-input-wrapper">
+                            <input type="text" id="repo-search" class="form-control btn-block" placeholder="Find a repository...">
+                        </div>
+                        <div class="filter-dropdowns">
+                            <div class="select-dropdown">
+                                <select id="filter-type">
+                                    <option value="all">Type: All</option>
+                                    <option value="public">Public</option>
+                                    <option value="fork">Forks</option>
+                                </select>
+                            </div>
+                            <div class="select-dropdown">
+                                <select id="filter-language">
+                                    <option value="all">Language: All</option>
+                                    <option value="javascript">JavaScript</option>
+                                    <option value="java">Java</option>
+                                    <option value="python">Python</option>
+                                    <option value="cpp">C++</option>
+                                </select>
+                            </div>
+                            <div class="select-dropdown">
+                                <select id="sort-order">
+                                    <option value="updated">Sort: Last updated</option>
+                                    <option value="stars">Sort: Stars</option>
+                                    <option value="name">Sort: Name</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary" id="btn-new-repo">
+                                <i data-lucide="folder-plus"></i> New
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="repo-list" id="repos-container">
+                        <!-- Repositories will be injected dynamically by app.js -->
+                    </div>
+                </div>
+
+                <!-- PROJECTS TAB -->
+                <div class="tab-pane" id="projects-pane" role="tabpanel">
+                    <div class="projects-kanban-header">
+                        <div>
+                            <h3 class="subsection-title">Project Board</h3>
+                            <p class="section-desc">Roadmap and Kanban board of current portfolios and active developments.</p>
+                        </div>
+                        <div class="project-board-actions">
+                            <button class="btn btn-sm" id="btn-project-view-grid">List View</button>
+                            <button class="btn btn-sm active" id="btn-project-view-kanban">Kanban View</button>
+                        </div>
+                    </div>
+
+                    <!-- Kanban Columns -->
+                    <div class="kanban-board" id="projects-board">
+                        <div class="kanban-column" id="col-todo">
+                            <div class="kanban-column-header">
+                                <span class="column-title"><span class="column-dot bg-todo"></span> To do</span>
+                                <span class="column-count" id="todo-count">1</span>
+                            </div>
+                            <div class="kanban-cards-container" data-status="todo">
+                                <!-- Card: Placement Prep / DSA Practice -->
+                                <div class="kanban-card" draggable="true" id="card-dsa">
+                                    <div class="card-tag">Algorithms</div>
+                                    <h4 class="card-title">Placement Preparation & Neetcode Submissions</h4>
+                                    <p class="card-desc">Working through Neetcode 150/Blind 75 and compiling standard JavaScript and C++ patterns for placement rounds.</p>
+                                    <div class="card-footer">
+                                        <div class="card-assignee" title="Sanjay">SP</div>
+                                        <div class="card-meta">
+                                            <span class="card-priority high">High</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="kanban-column" id="col-inprogress">
+                            <div class="kanban-column-header">
+                                <span class="column-title"><span class="column-dot bg-progress"></span> In progress</span>
+                                <span class="column-count" id="progress-count">1</span>
+                            </div>
+                            <div class="kanban-cards-container" data-status="inprogress">
+                                <!-- Card: Portfolio -->
+                                <div class="kanban-card" draggable="true" id="card-portfolio">
+                                    <div class="card-tag">Web Design</div>
+                                    <h4 class="card-title">GitHub-Themed Portfolio Builder</h4>
+                                    <p class="card-desc">Designing an ultra-responsive, beautiful developer portfolio themed exactly like GitHub with theme toggles.</p>
+                                    <div class="card-footer">
+                                        <div class="card-assignee" title="Sanjay">SP</div>
+                                        <div class="card-meta">
+                                            <span class="card-priority medium">Medium</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="kanban-column" id="col-done">
+                            <div class="kanban-column-header">
+                                <span class="column-title"><span class="column-dot bg-done"></span> Done</span>
+                                <span class="column-count" id="done-count">3</span>
+                            </div>
+                            <div class="kanban-cards-container" data-status="done">
+                                <!-- Card 1: Umbrella Rental -->
+                                <div class="kanban-card" draggable="true" id="card-rainshield">
+                                    <div class="card-tag">React + IoT</div>
+                                    <h4 class="card-title">Umbrella Rental System (RainShield)</h4>
+                                    <p class="card-desc">Completed full-stack IoT rental application with QR verification. Live deployment on Vercel.</p>
+                                    <div class="card-footer">
+                                        <div class="card-assignee" title="Sanjay">SP</div>
+                                        <div class="card-meta">
+                                            <a href="https://rain-shield.vercel.app" target="_blank" class="card-link"><i data-lucide="external-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 2: Smart Home -->
+                                <div class="kanban-card" draggable="true" id="card-smarthome">
+                                    <div class="card-tag">IoT Hardware</div>
+                                    <h4 class="card-title">Smart Home Automation System</h4>
+                                    <p class="card-desc">Created NodeMCU/ESP8266 based home appliance automated controller. Won 2nd prize at Project Expo.</p>
+                                    <div class="card-footer">
+                                        <div class="card-assignee" title="Sanjay">SP</div>
+                                        <div class="card-meta">
+                                            <span class="card-award">🏆 2nd Place</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 3: Placement Tracker -->
+                                <div class="kanban-card" draggable="true" id="card-placement">
+                                    <div class="card-tag">MERN Stack</div>
+                                    <h4 class="card-title">Placement Tracker System</h4>
+                                    <p class="card-desc">Full MERN management portal for coordinating college company recruitment drives and applicant profiles.</p>
+                                    <div class="card-footer">
+                                        <div class="card-assignee" title="Sanjay">SP</div>
+                                        <div class="card-meta">
+                                            <a href="https://placement96.vercel.app" target="_blank" class="card-link"><i data-lucide="external-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STARS TAB -->
+                <div class="tab-pane" id="stars-pane" role="tabpanel">
+                    <div class="section-header border-bottom">
+                        <h3 class="subsection-title">Starred Repositories</h3>
+                    </div>
+                    <div class="stars-list" id="stars-container">
+                        <!-- Stars injected dynamically by app.js -->
+                    </div>
+                </div>
+
+                <!-- RESUME TAB -->
+                <div class="tab-pane" id="resume-pane" role="tabpanel">
+                    <!-- Resume Controls -->
+                    <div class="resume-controls">
+                        <button class="btn btn-primary" onclick="window.print()">
+                            <i data-lucide="printer"></i> Print / Save as PDF
+                        </button>
+                        <a href="mailto:palisettysanjaykumar@gmail.com" class="btn">
+                            <i data-lucide="send"></i> Hire Sanjay
+                        </a>
+                    </div>
+                    
+                    <!-- Paper Resume Container -->
+                    <div class="resume-paper" id="resume-document">
+                        <div class="resume-header-block">
+                            <h1 class="resume-name">PALISETTY SANJAY KUMAR</h1>
+                            <div class="resume-contacts">
+                                <span class="resume-contact-item">
+                                    <i data-lucide="mail"></i> palisettysanjaykumar@gmail.com
+                                </span>
+                                <span class="resume-contact-item">
+                                    <i data-lucide="phone"></i> +91 7416558162
+                                </span>
+                                <span class="resume-contact-item">
+                                    <i data-lucide="linkedin"></i> linkedin.com/in/iam-sanjaykumar
+                                </span>
+                                <span class="resume-contact-item">
+                                    <i data-lucide="github"></i> github.com/i-am-sanjaykumar07
+                                </span>
+                                <span class="resume-contact-item">
+                                    <i data-lucide="globe"></i> portfolio-palisettysanjaykumar.vercel.app
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="resume-section-block">
+                            <h2 class="resume-sec-title">Professional Summary</h2>
+                            <p class="resume-text">
+                                Computer Science Engineering student specializing in Information Security with strong foundations in software development, cybersecurity, and problem solving. Skilled in building full-stack web applications and IoT solutions with knowledge of data structures, databases, and networking concepts.
+                            </p>
+                        </div>
+
+                        <div class="resume-section-block">
+                            <h2 class="resume-sec-title">Education</h2>
+                            <div class="resume-edu-item">
+                                <div class="resume-item-header">
+                                    <strong>Bachelor of Engineering – Computer Science and Engineering</strong>
+                                    <span>Aug 2023 – May 2027</span>
+                                </div>
+                                <div class="resume-item-sub">
+                                    <span>Specialization: Information Security | Chandigarh University, Mohali</span>
+                                    <strong>CGPA: 7.96</strong>
+                                </div>
+                            </div>
+                            <div class="resume-edu-item">
+                                <div class="resume-item-header">
+                                    <strong>Intermediate (Board of Intermediate Education, Andhra Pradesh)</strong>
+                                    <span>Sep 2021 – Mar 2023</span>
+                                </div>
+                                <div class="resume-item-sub">
+                                    <span>Narayana Junior College, Vijayawada</span>
+                                    <strong>Percentage: 94.5%</strong>
+                                </div>
+                            </div>
+                            <div class="resume-edu-item">
+                                <div class="resume-item-header">
+                                    <strong>Matriculation (Board of Secondary Education, Andhra Pradesh)</strong>
+                                    <span>Nov 2020 – Apr 2021</span>
+                                </div>
+                                <div class="resume-item-sub">
+                                    <span>Oxford School, Narasaraopeta</span>
+                                    <strong>Percentage: 100%</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="resume-section-block">
+                            <h2 class="resume-sec-title">Projects</h2>
+                            
+                            <div class="resume-project-item">
+                                <div class="resume-item-header">
+                                    <strong>Smart Home Automation System (IoT)</strong>
+                                    <span>Jan 2024 – May 2024</span>
+                                </div>
+                                <div class="resume-item-sub">
+                                    <span>Role: Developer</span>
+                                </div>
+                                <ul class="resume-bullets">
+                                    <li>Developed an IoT-based home automation system using Arduino, ESP8266, and sensor modules.</li>
+                                    <li>Implemented wireless device control and sensor-based automation for real-time operations.</li>
+                                    <li>Integrated hardware components and optimized communication between IoT devices.</li>
+                                    <li>Secured 2nd Prize at University-Level Project Expo for innovative IoT implementation.</li>
+                                </ul>
+                            </div>
+
+                            <div class="resume-project-item">
+                                <div class="resume-item-header">
+                                    <strong>Umbrella Rental System (React Web Application + IoT Concept)</strong>
+                                    <span>2025</span>
+                                </div>
+                                <div class="resume-item-sub">
+                                    <span>Role: Product Designer & Developer | Live Demo: <a href="https://rain-shield.vercel.app" target="_blank">https://rain-shield.vercel.app</a></span>
+                                </div>
+                                <ul class="resume-bullets">
+                                    <li>Designed a QR-based smart umbrella rental platform combining web technology with IoT concepts.</li>
+                                    <li>Developed responsive user interfaces using React.js and modern frontend technologies.</li>
+                                    <li>Implemented API-based workflows to simulate rental operations and user interactions.</li>
+                                    <li>Designed a scalable system architecture focusing on accessibility and user convenience.</li>
+                                </ul>
+                            </div>
+
+                            <div class="resume-project-item">
+                                <div class="resume-item-header">
+                                    <strong>Placement Tracker System (MERN Stack Application)</strong>
+                                    <span>2026</span>
+                                </div>
+                                <div class="resume-item-sub">
+                                    <span>Role: Full Stack Developer | Live Demo: <a href="https://placement96.vercel.app" target="_blank">https://placement96.vercel.app</a></span>
+                                </div>
+                                <ul class="resume-bullets">
+                                    <li>Developed a MERN-based placement management system for student and company drive tracking.</li>
+                                    <li>Built responsive frontend components using React.js for improved user experience.</li>
+                                    <li>Designed REST APIs and integrated MongoDB for authentication and data management.</li>
+                                    <li>Implemented structured workflows to simplify placement application monitoring.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="resume-section-block">
+                            <h2 class="resume-sec-title">Technical Skills</h2>
+                            <table class="resume-skills-table">
+                                tr
+                                <tr>
+                                    <td><strong>Languages:</strong></td>
+                                    <td>C++, Python, JavaScript, SQL</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Web Development:</strong></td>
+                                    <td>React.js, Node.js, Express.js, HTML5, CSS3, REST APIs</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Databases & Tools:</strong></td>
+                                    <td>MySQL, MongoDB, Git, GitHub, Linux</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>CS Fundamentals:</strong></td>
+                                    <td>Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Cybersecurity:</strong></td>
+                                    <td>Network Security, Vulnerability Assessment, Penetration Testing Basics, OWASP Top 10, Wireshark</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Professional Skills:</strong></td>
+                                    <td>Problem Solving, Adaptability, Analytical Thinking, Team Collaboration, Communication</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="resume-section-block">
+                            <h2 class="resume-sec-title">Certifications</h2>
+                            <ul class="resume-bullets">
+                                <li>Security Operations Analyst Associate – Microsoft</li>
+                                <li>AI for Entrepreneurship – Skill India Digital Hub</li>
+                                <li>Relational Database Management System (SQL) – IBM</li>
+                                <li>C++ Essentials 1 – Cisco</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <span class="footer-copyright">© 2026 GitHub, Inc.</span>
+                <a href="https://docs.github.com/site-policy/github-terms-of-service" class="footer-link">Terms</a>
+                <a href="https://docs.github.com/site-policy/github-privacy-statement" class="footer-link">Privacy</a>
+                <a href="https://github.com/security" class="footer-link">Security</a>
+                <a href="https://www.githubstatus.com/" class="footer-link">Status</a>
+                <a href="https://docs.github.com" class="footer-link">Docs</a>
+            </div>
+            <a href="#overview" class="footer-logo">
+                <svg height="24" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="octicon-github-footer">
+                    <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.35 3.12.88.01.47.01.84.01.93 0 .22-.15.47-.55.38A8.006 8.006 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                </svg>
+            </a>
+            <div class="footer-right">
+                <a href="https://github.com/contact" class="footer-link">Contact GitHub</a>
+                <a href="https://github.com/pricing" class="footer-link">Pricing</a>
+                <a href="https://docs.github.com" class="footer-link">API</a>
+                <a href="https://training.github.com" class="footer-link">Training</a>
+                <a href="https://github.blog" class="footer-link">Blog</a>
+                <a href="https://github.com/about" class="footer-link">About</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
