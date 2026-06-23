@@ -22,7 +22,7 @@
 
 I blend programming logic with cybersecurity awareness to secure cloud, on-prem, and IoT environments. I am passionate about learning penetration testing, vulnerability assessment, and defensive concepts.
 
-Engineer by title. Cyberwarrior by choice. Lifelong learner by legacy.
+Building secure applications by combining software engineering, cybersecurity, and problem-solving.
 
 ---
 
