@@ -16,9 +16,9 @@
 ---
 
 ## 👨‍💻 Who is Sanjay Kumar Palisetty? aka @i-am-sanjaykumar07
-※⁜∻ Cybersecurity CSE Student | Information Security Specialist | Full-Stack Developer | IoT Creator
+🎯 Cybersecurity Student | Full-Stack Developer | Problem Solver | IoT Explorer
 
-🔐 I am a Computer Science Engineering student specializing in **Information Security** at **Chandigarh University, Mohali** (graduating May 2027). I focus on security operations, building secure full-stack web applications, and finding innovative IoT solutions.
+🔐 I am a Computer Science Engineering student specializing in **Information Security** at **Chandigarh University, Mohali** (graduating May 2027). I focus on building secure full-stack applications, understanding cybersecurity concepts, and creating innovative IoT-based solutions.
 
 I blend programming logic with cybersecurity awareness to secure cloud, on-prem, and IoT environments. I am passionate about learning penetration testing, vulnerability assessment, and defensive concepts.
 
@@ -28,15 +28,14 @@ Building secure applications by combining software engineering, cybersecurity, a
 
 ## 🧠 My Expertise
 
-* 🔍 **VAPT / Penetration Testing** basics in Web, API, and local networks
+* 🔍 **Web Security, Vulnerability Assessment & Penetration Testing Fundamentals**
 * 🛡️ **Network Security & Forensics** using tools like Wireshark and Packet Tracer
 * 💻 **Full-Stack Web Development** using the MERN stack (MongoDB, Express, React, Node)
 * 🔌 **IoT & Embedded Hardware** integration using ESP8266 / NodeMCU & Arduino
-* 🧬 **CS Fundamentals**: Data Structures & Algorithms, OOP, OS, and DBMS architectures
-
+* 🧬 **CS Fundamentals** Data Structures & Algorithms, OOP, Operating Systems, DBMS & Networking
 ---
 
-## 🚀 Projects ERA
+## 🚀 Featured Projects
 
 * 🏆 **Smart Home Automation System (IoT)**
   * Developed a NodeMCU/ESP8266 based automated appliance controller integrating relays and local sensor streams.
@@ -56,7 +55,7 @@ Building secure applications by combining software engineering, cybersecurity, a
 
 ## 💻 Tech Stack
 
-Welcome to the command deck — here is the toolkit I deploy for coding, cybersecurity engineering, hardware simulation, and DevSecOps.
+Technologies and tools I use for software development, cybersecurity learning, and IoT prototyping.
 
 ### 🧠 Programming Languages & Scripting
 <p align="left">
