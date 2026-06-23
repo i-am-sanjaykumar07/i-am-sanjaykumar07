@@ -28,13 +28,13 @@ I focus on building secure and scalable applications by combining **software dev
 
 * 🛡️ Cybersecurity & Secure Development Enthusiast
 * 💻 MERN Stack Developer
-* 🧠 C++ & Data Structures Learner
+* 🧠 C++ & Data Structures Problem Solver
 * 🔍 Exploring Vulnerability Assessment & Penetration Testing
 * 🌐 Interested in Network Security and IoT Solutions
 
 ---
 
-# 💼 Experience
+# 💼 Internship Experience
 
 ## 🛡️ Cybersecurity Intern
 
@@ -180,6 +180,14 @@ I focus on building secure and scalable applications by combining **software dev
 ---
 
 <p align="center">
+
+# 🏆 GitHub Achievements
+
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=i-am-sanjaykumar07&theme=tokyonight&no-frame=true">
+
+</p>
 
 ## 🛡️ Secure Code. Continuous Learning. Real-World Problem Solving 🚀
 
