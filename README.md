@@ -1,120 +1,134 @@
 # Hi 👋, I'm Sanjay Kumar Palisetty 🛡️
 
-### Cybersecurity Enthusiast | Full-Stack Developer | CSE (Information Security) Undergraduate
+## Cybersecurity Enthusiast | Full-Stack Developer | CSE (Information Security) Undergraduate
 
 <p align="left">
-  <a href="https://linkedin.com/in/iam-sanjaykumar">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
-  </a>
-  <a href="mailto:palisettysanjaykumar@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
-  </a>
-  <a href="https://portfolio-palisettysanjaykumar.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-black?style=for-the-badge&logo=vercel">
-  </a>
+
+<a href="https://linkedin.com/in/iam-sanjaykumar">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+</a>
+
+<a href="mailto:palisettysanjaykumar@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
+</a>
+
+<a href="https://portfolio-palisettysanjaykumar.vercel.app">
+<img src="https://img.shields.io/badge/Portfolio-Visit-black?style=for-the-badge&logo=vercel">
+</a>
+
 </p>
 
 ---
 
-## 👨‍💻 About Me
+# 👨‍💻 About Me
 
-🎓 I am a **Computer Science Engineering undergraduate specializing in Information Security** at **Chandigarh University, Mohali** (2023–2027).
+🎓 Computer Science Engineering undergraduate specializing in **Information Security** at **Chandigarh University, Mohali**.
 
-I enjoy building secure and scalable applications by combining **software development, cybersecurity concepts, and problem-solving skills**.
+I focus on building secure and scalable applications by combining **software development, cybersecurity concepts, and problem-solving skills**.
 
-* 🔐 Exploring Cybersecurity, Secure Development & VAPT
-* 💻 Building Full-Stack Applications using MERN Stack
-* 🧠 Practicing Data Structures & Algorithms using C++
-* 🌐 Interested in Web Security, Networking & IoT Solutions
+* 🛡️ Cybersecurity & Secure Development Enthusiast
+* 💻 MERN Stack Developer
+* 🧠 C++ & Data Structures Learner
+* 🔍 Exploring Vulnerability Assessment & Penetration Testing
+* 🌐 Interested in Network Security and IoT Solutions
 
 ---
 
-## 💼 Experience
+# 💼 Experience
 
-### 🛡️ Cybersecurity Intern
+## 🛡️ Cybersecurity Intern
 
 ### YHills Edutech Pvt. Ltd.
 
-* Worked on cybersecurity fundamentals, vulnerability assessment, and penetration testing concepts.
-* Performed basic security testing in virtual environments.
-* Explored web application vulnerabilities and security assessment methodologies.
-* Used cybersecurity tools including:
+**Domain:** Cybersecurity | VAPT | Ethical Hacking
+
+* Gained practical experience in cybersecurity methodologies and security assessment workflows.
+* Performed vulnerability assessment and penetration testing in controlled environments.
+* Explored web application vulnerabilities and OWASP Top 10 concepts.
+* Worked with cybersecurity tools:
 
   * Kali Linux
   * sqlmap
   * Wireshark
   * Virtual Machines
-* Prepared vulnerability analysis and security reports.
+* Created vulnerability assessment reports with findings and mitigation approaches.
 
 ---
 
-## 🚀 Featured Projects
+## 🛡️ Cybersecurity Intern
+
+### ShadowFox
+
+**Domain:** Cybersecurity | Ethical Hacking | Security Analysis
+
+* Completed practical cybersecurity tasks focused on security fundamentals.
+* Practiced reconnaissance and vulnerability analysis techniques.
+* Strengthened understanding of offensive and defensive security concepts.
+* Worked on:
+
+  * Web Security Concepts
+  * Linux Environment
+  * Network Security
+  * Security Tools
+
+---
+
+# 🚀 Featured Projects
 
 ## 🏠 Smart Home Automation System (IoT)
 
-**Role:** Developer
-**Tech:** Arduino | ESP8266 | Sensors | Embedded Systems
+**Tech Stack:** Arduino | ESP8266 | Sensors | Embedded Systems
 
 * Developed an IoT-based smart home automation system.
-* Implemented wireless appliance control using ESP8266 modules.
-* Integrated sensors for automated real-time operations.
-* Optimized communication between IoT hardware components.
+* Implemented wireless device control using ESP8266.
+* Integrated sensors for automated operations.
+* Optimized communication between IoT devices.
 
-🏆 **Achievement:** Secured 2nd Prize at University-Level Project Expo
+🏆 Secured **2nd Prize at University-Level Project Expo**
 
 ---
 
 ## ☂️ RainShield — Umbrella Rental System
 
-**Role:** Product Designer & Developer
+**Tech Stack:** React.js | APIs | IoT Concept
 
-**Tech:** React.js | Web Development | IoT Concept
+🔗 https://rain-shield.vercel.app
 
-🔗 Live Demo:
-https://rain-shield.vercel.app
-
-* Designed a QR-based smart umbrella rental platform.
-* Developed responsive frontend interfaces using React.js.
-* Created API-based workflows for rental operations.
-* Designed scalable architecture focusing on accessibility.
+* Designed QR-based smart umbrella rental platform.
+* Built responsive user interfaces using React.
+* Implemented API-based rental workflows.
+* Designed scalable user-friendly architecture.
 
 ---
 
 ## 📊 Placement Tracker System
 
-**Role:** Full Stack Developer
+**Tech Stack:** MongoDB | Express.js | React.js | Node.js
 
-**Tech:** MongoDB | Express.js | React.js | Node.js
+🔗 https://placement96.vercel.app
 
-🔗 Live Demo:
-https://placement96.vercel.app
-
-* Built a MERN stack placement management system.
-* Developed student and company drive tracking modules.
-* Created REST APIs and integrated MongoDB database.
-* Designed responsive dashboard components.
+* Developed MERN placement management application.
+* Built student and company tracking modules.
+* Designed REST APIs.
+* Integrated MongoDB database management.
 
 ---
 
 # 🛠️ Technical Skills
 
-## Programming Languages
+## Languages
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square\&logo=cplusplus)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python)
+![Python](https://img.shields.io/badge/Python-blue?style=flat-square\&logo=python)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square\&logo=javascript)
 ![SQL](https://img.shields.io/badge/SQL-blue?style=flat-square\&logo=mysql)
-
----
 
 ## Full Stack Development
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square\&logo=react)
 ![Node](https://img.shields.io/badge/Node.js-green?style=flat-square\&logo=node.js)
-![Express](https://img.shields.io/badge/Express.js-black?style=flat-square)
+![Express](https://img.shields.io/badge/Express-black?style=flat-square)
 ![MongoDB](https://img.shields.io/badge/MongoDB-green?style=flat-square\&logo=mongodb)
-
----
 
 ## Cybersecurity
 
@@ -125,9 +139,7 @@ https://placement96.vercel.app
 * 📡 Wireshark
 * 🐧 Linux
 
----
-
-## Computer Science Fundamentals
+## CS Fundamentals
 
 * Data Structures & Algorithms
 * Object-Oriented Programming
@@ -137,7 +149,7 @@ https://placement96.vercel.app
 
 ---
 
-## 📜 Certifications
+# 📜 Certifications
 
 🏅 Microsoft Certified: Security Operations Analyst Associate
 
@@ -149,7 +161,7 @@ https://placement96.vercel.app
 
 ---
 
-## 📊 GitHub Analytics
+# 📊 GitHub Analytics
 
 <p align="center">
 
@@ -169,6 +181,6 @@ https://placement96.vercel.app
 
 <p align="center">
 
-### 🛡️ Building Secure Applications | Learning Continuously | Solving Real-World Problems 🚀
+## 🛡️ Secure Code. Continuous Learning. Real-World Problem Solving 🚀
 
 </p>
